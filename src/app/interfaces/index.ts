@@ -1,0 +1,5 @@
+export * from './IMovies'
+export * from './IGenres'
+export * from './IInfo'
+export * from './IMovieGenres'
+export * from './IAllGenres'

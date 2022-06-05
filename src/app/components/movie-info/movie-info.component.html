@@ -1,0 +1,20 @@
+
+<div class="movie" *ngIf="movie">
+  <div class="details">
+    <div class="imgTitle">
+      <div class="title">{{movie.title}}</div>
+      <div><img src="https://image.tmdb.org/t/p/w200{{movie.poster_path}}" alt="movie_img"></div>
+      <div><app-star-rating [currentRate]="movie.vote_average"></app-star-rating></div>
+    </div>
+    <div class="container">
+      <div class="info">Date: {{movie.release_date}}</div>
+      <hr>
+      <div class="info">Genre: {{movieGenres()}}</div>
+      <hr>
+      <div class="info">Original language: {{movie.original_language}}</div>
+      <hr>
+      <div class="info, overview">Overview: {{movie.overview}}</div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,38 @@
+.details{
+  display: flex;
+}
+
+.overview{
+  width: 400px;
+}
+.movie{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  min-height: 600px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  width: 900px;
+  margin-top: 20px;
+}
+
+.info{
+  margin: 10px 0;
+}
+
+.imgTitle{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  gap: 8px 0;
+}
+
+.title{
+  left: auto;
+  font-size: 22px;
+}
+img{
+  border-radius: 5px;
+}

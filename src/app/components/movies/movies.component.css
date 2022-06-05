@@ -1,0 +1,11 @@
+
+.movieList{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+}
+
