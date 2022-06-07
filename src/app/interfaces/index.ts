@@ -1,4 +1,4 @@
-export * from './IMovies'
+export * from './IMovie'
 export * from './IGenres'
 export * from './IInfo'
 export * from './IMovieGenres'

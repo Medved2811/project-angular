@@ -4,8 +4,9 @@ const {API} = environment;
 
 export const urls = {
   movies: `${API}/discover/movie`,
+  movie: `${API}/movie/`,
   genres: `${API}/genre/movie/list`,
-  movie: `${API}/movie`,
-  searchMovie: `${API}/search/keyword?query=super`
+  searchMovie: `${API}/search/movie?=query`,
+
 }
 

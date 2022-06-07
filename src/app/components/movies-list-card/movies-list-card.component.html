@@ -1,0 +1,9 @@
+
+<div class="movie" [routerLink]="[movie.id]" >
+  <div><img src="https://image.tmdb.org/t/p/w200{{movie.poster_path}}" alt="movie img"></div>
+  <div class="info">
+    <div class="title"><a routerLink="{{movie.id}}" [state]="movie" >{{movie.title}}</a></div>
+  </div>
+  <app-star-rating [currentRate]="movie.vote_average"></app-star-rating>
+</div>
+

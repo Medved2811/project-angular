@@ -1,6 +1,6 @@
 import {IGenres} from "./IGenres";
 
-export interface IMovies {
+export interface IMovie {
   adult: boolean;
   backdrop_path: string;
   genre_ids: IGenres[];

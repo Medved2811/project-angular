@@ -1,9 +1,5 @@
-
-<div class="movie" [routerLink]="[movie.id]" >
-  <div><img src="https://image.tmdb.org/t/p/w200{{movie.poster_path}}" alt="movie img"></div>
-  <div class="info">
-    <div class="title"><a routerLink="{{movie.id}}" [state]="movie" >{{movie.title}}</a></div>
-  </div>
-  <app-star-rating [currentRate]="movie.vote_average"></app-star-rating>
+<div class="movies">
+  <app-movies-list *ngFor="let movie of movies" [movie]="movie"></app-movies-list>
 </div>
+<app-pagination class="pagination"></app-pagination>
 
