@@ -5,18 +5,3 @@ pre {
 .pre b {
   color: snow;
 }
-.star {
-  position: relative;
-  display: inline-block;
-  color: white;
-
-}
-/*.full {
-  color: #344a54;
-}*/
-.half {
-  position: absolute;
-  display: inline-block;
-  overflow: hidden;
-  color: goldenrod;
-}
